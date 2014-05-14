@@ -1,0 +1,26 @@
+2014-01-10 00:42:40,667 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 00:42:43,669 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 01:42:38,866 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 01:42:38,871 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 02:42:40,069 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 02:42:40,072 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 03:42:38,268 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-10 03:42:38,271 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 04:42:39,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 04:42:39,471 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 05:42:40,668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 05:42:40,673 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 06:42:38,868 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 06:42:38,872 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 1 msecs for RPC and NN processing
+2014-01-10 07:42:40,067 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 07:42:40,072 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 08:42:38,269 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 08:42:41,269 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 09:42:39,468 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-10 09:42:39,473 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 10:42:40,668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 10:42:40,672 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 1 msec to generate and 1 msecs for RPC and NN processing
+2014-01-10 11:42:38,866 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-10 11:42:38,871 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-10 12:42:40,067 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-10 12:42:40,071 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing

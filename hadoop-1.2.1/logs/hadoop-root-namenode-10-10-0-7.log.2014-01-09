@@ -1,0 +1,1200 @@
+2014-01-09 00:00:38,909 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:00:38,915 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:05:37,062 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 00:05:39,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:05:39,027 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:07:21,227 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 00:10:39,118 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:10:39,118 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:15:39,208 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:15:39,209 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:20:39,297 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:20:39,297 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:22:50,597 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 00:25:39,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:25:39,383 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:30:39,467 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:30:39,467 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:35:39,563 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:35:39,563 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:40:39,123 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 00:40:39,123 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:40:39,376 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 00:40:39,429 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 00:40:39,431 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 00:40:39,431 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 8 
+2014-01-09 00:40:39,432 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:40:39,433 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:40:39,624 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:40:39,624 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 00:40:39,626 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 00:40:39,626 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 00:42:41,940 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 00:45:39,708 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:45:39,708 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:50:39,809 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:50:39,809 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 00:55:39,894 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 00:55:39,894 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:00:39,973 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:00:39,973 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:05:35,269 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 01:05:40,067 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:05:40,068 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:07:19,431 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 01:10:40,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:10:40,146 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:15:40,234 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:15:40,235 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:20:40,317 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:20:40,317 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:22:48,801 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 01:25:40,403 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:25:40,403 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:30:40,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:30:40,491 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:35:40,574 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:35:40,574 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:40:39,515 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 01:40:39,515 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:40:39,705 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 01:40:39,741 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 01:40:39,742 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 01:40:39,743 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 7 
+2014-01-09 01:40:39,744 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:40:39,744 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:40:40,748 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:40:40,748 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 01:40:40,750 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 01:40:40,750 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 01:42:40,138 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 01:45:40,849 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:45:40,849 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:50:40,927 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:50:40,927 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 01:55:41,001 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 01:55:41,001 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:00:41,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:00:41,056 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:05:33,467 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 02:05:41,132 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:05:41,132 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:07:17,630 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 02:10:41,220 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:10:41,220 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:15:41,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:15:41,295 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:20:41,369 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:20:41,369 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:22:50,001 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 02:25:41,457 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:25:41,458 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:30:41,535 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:30:41,535 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:35:41,612 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:35:41,612 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:40:39,822 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 02:40:39,823 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:40:40,038 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 02:40:40,090 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 02:40:40,091 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 02:40:40,092 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 14 
+2014-01-09 02:40:40,093 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:40:40,094 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:40:41,676 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:40:41,676 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 02:40:41,678 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 02:40:41,678 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 02:42:38,337 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 02:45:41,771 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:45:41,772 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:50:41,851 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:50:41,851 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 02:55:41,923 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 02:55:41,923 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:00:42,007 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:00:42,007 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:05:34,665 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 03:05:42,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:05:42,087 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:07:18,829 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 03:10:42,150 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:10:42,150 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:15:42,198 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:15:42,198 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:20:42,253 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:20:42,253 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:22:48,198 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 03:25:42,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:25:42,306 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:30:42,353 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:30:42,353 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:35:42,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:35:42,403 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:40:40,300 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 03:40:40,300 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:40:40,484 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 03:40:40,520 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 03:40:40,521 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 03:40:40,522 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 17 
+2014-01-09 03:40:40,523 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:40:40,524 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:40:42,459 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:40:42,460 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 03:40:42,461 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 03:40:42,461 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 03:42:39,536 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 03:45:42,562 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:45:42,562 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:50:42,641 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:50:42,642 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 03:55:42,727 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 03:55:42,728 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:00:42,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:00:42,805 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:05:32,866 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 04:05:42,873 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:05:42,873 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:07:20,030 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 04:10:42,939 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:10:42,939 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:15:43,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:15:43,028 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:20:43,110 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:20:43,110 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:22:52,399 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 04:25:43,198 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:25:43,198 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:30:43,280 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:30:43,281 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:35:43,348 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:35:43,348 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:40:40,593 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 04:40:40,593 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:40:40,716 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 04:40:40,746 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 04:40:40,747 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 04:40:40,747 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 11 
+2014-01-09 04:40:40,747 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:40:40,748 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:40:43,494 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:40:43,494 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 04:40:43,495 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 04:40:43,495 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 04:42:40,738 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 04:45:43,547 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:45:43,548 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:50:43,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:50:43,699 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 04:55:43,759 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 04:55:43,759 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:00:43,820 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:00:43,821 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:05:34,066 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 05:05:43,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:05:43,906 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:07:18,229 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 05:10:43,966 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:10:43,966 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:15:44,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:15:44,026 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:20:44,085 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:20:44,085 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:22:47,601 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 05:25:44,187 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:25:44,187 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:30:44,261 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:30:44,261 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:35:44,324 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:35:44,325 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:40:40,806 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 05:40:40,806 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:40:40,961 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 05:40:41,008 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 05:40:41,009 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 05:40:41,009 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 6 
+2014-01-09 05:40:41,010 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:40:41,010 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:40:44,389 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:40:44,390 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 05:40:44,392 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 05:40:44,393 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 05:42:41,936 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 05:45:44,458 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:45:44,458 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:50:44,530 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:50:44,531 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 05:55:44,614 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 05:55:44,614 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:00:44,669 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:00:44,669 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:05:35,265 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 06:05:44,713 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:05:44,713 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:07:19,430 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 06:10:44,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:10:44,773 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:15:44,822 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:15:44,823 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:20:44,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:20:44,895 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:22:48,799 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 06:25:44,972 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:25:44,972 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:30:45,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:30:45,043 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:35:45,126 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:35:45,126 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:40:41,068 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 06:40:41,068 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:40:41,261 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 06:40:41,294 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 06:40:41,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 06:40:41,295 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2014-01-09 06:40:41,295 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:40:41,296 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:40:45,199 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:40:45,199 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 06:40:45,201 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 06:40:45,201 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 06:42:40,137 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 06:45:45,307 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:45:45,307 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:50:45,412 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:50:45,413 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 06:55:45,484 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 06:55:45,484 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:00:45,568 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:00:45,568 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:05:33,465 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 07:05:45,654 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:05:45,654 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:07:20,627 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 07:10:45,730 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:10:45,730 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:15:45,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:15:45,814 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:20:45,900 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:20:45,900 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:22:50,002 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 07:25:46,034 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:25:46,035 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:30:46,124 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:30:46,125 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:35:46,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:35:46,212 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:40:41,376 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 07:40:41,376 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:40:41,610 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 07:40:41,643 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 07:40:41,644 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 07:40:41,645 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 10 
+2014-01-09 07:40:41,645 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:40:41,646 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:40:46,302 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:40:46,303 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 07:40:46,304 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 07:40:46,304 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 07:42:38,338 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 07:45:46,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:45:46,402 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:50:46,488 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:50:46,488 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 07:55:46,571 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 07:55:46,572 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:00:46,829 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:00:46,830 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:05:34,665 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 08:05:46,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:05:46,896 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:07:18,831 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 08:10:46,978 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:10:46,979 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:15:47,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:15:47,064 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:20:47,144 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:20:47,144 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:22:48,201 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 08:25:47,223 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:25:47,224 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:30:47,310 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:30:47,310 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:35:47,399 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:35:47,399 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:40:41,779 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 08:40:41,779 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:40:41,893 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 08:40:41,926 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 08:40:41,928 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 08:40:41,928 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 7 
+2014-01-09 08:40:41,929 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:40:41,930 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:40:47,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:40:47,471 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 08:40:47,490 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 08:40:47,490 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 08:42:42,537 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 08:45:47,573 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:45:47,573 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:50:47,653 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:50:47,653 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 08:55:47,734 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 08:55:47,735 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:00:47,812 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:00:47,812 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:05:32,865 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 09:05:47,897 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:05:47,897 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:07:20,030 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 09:10:47,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:10:47,983 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:15:48,065 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:15:48,065 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:20:48,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:20:48,152 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:22:49,401 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 09:25:48,224 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:25:48,224 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:30:48,307 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:30:48,307 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:35:48,394 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:35:48,395 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:40:41,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 09:40:41,996 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:40:42,164 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 09:40:42,204 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 09:40:42,206 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 09:40:42,206 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 14 
+2014-01-09 09:40:42,207 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:40:42,208 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:40:48,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:40:48,500 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 09:40:48,502 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 09:40:48,502 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 09:42:40,738 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 09:45:48,596 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:45:48,596 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:50:48,650 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:50:48,650 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 09:55:48,698 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 09:55:48,698 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:00:48,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:00:48,765 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:05:37,062 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 10:05:48,840 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:05:48,840 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:07:18,229 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 10:10:48,913 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:10:48,913 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:15:48,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:15:48,995 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:20:49,074 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:20:49,074 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:22:47,600 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 10:25:49,160 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:25:49,160 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:30:49,238 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:30:49,238 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:35:49,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:35:49,321 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:40:42,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 10:40:42,477 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:40:42,642 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 10:40:42,677 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 10:40:42,679 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 10:40:42,679 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 10 
+2014-01-09 10:40:42,680 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:40:42,680 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:40:49,389 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:40:49,389 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 10:40:49,391 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 10:40:49,391 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 10:42:38,936 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 10:45:49,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:45:49,483 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:50:49,568 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:50:49,568 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 10:55:49,628 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 10:55:49,628 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:00:49,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:00:49,758 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:05:35,265 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 11:05:49,823 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:05:49,824 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:07:19,427 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 11:10:49,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:10:49,887 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:15:49,962 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:15:49,962 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:20:50,029 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:20:50,030 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:22:48,800 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 11:25:50,116 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:25:50,117 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:30:50,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:30:50,193 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:35:50,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:35:50,294 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:40:42,746 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 11:40:42,746 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:40:42,961 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 11:40:43,006 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 11:40:43,007 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 11:40:43,008 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 5 
+2014-01-09 11:40:43,009 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:40:43,010 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:40:50,360 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:40:50,360 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 11:40:50,361 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 11:40:50,361 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 11:42:43,141 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 11:45:50,429 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:45:50,429 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:50:50,507 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:50:50,507 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 11:55:50,604 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 11:55:50,605 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:00:50,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:00:50,695 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:05:36,463 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 12:05:50,763 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:05:50,764 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:07:17,629 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 12:10:50,845 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:10:50,846 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:15:50,932 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:15:50,932 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:20:51,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:20:51,017 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:22:49,998 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 12:25:51,093 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:25:51,093 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:30:51,170 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:30:51,170 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:35:51,256 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:35:51,256 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:40:43,122 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 12:40:43,122 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:40:43,216 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 12:40:43,259 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 12:40:43,261 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 12:40:43,261 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 5 
+2014-01-09 12:40:43,262 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:40:43,263 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:40:51,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:40:51,321 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 12:40:51,323 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 12:40:51,323 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 12:42:38,339 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 12:45:51,417 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:45:51,417 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:50:51,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:50:51,482 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 12:55:51,564 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 12:55:51,565 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:00:51,645 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:00:51,645 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:05:37,665 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 13:05:51,721 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:05:51,721 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:07:18,831 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 13:10:51,798 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:10:51,798 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:15:51,882 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:15:51,883 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:20:51,967 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:20:51,967 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:22:48,200 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 13:25:52,059 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:25:52,059 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:30:52,139 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:30:52,139 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:35:52,223 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:35:52,223 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:40:43,348 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 13:40:43,348 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:40:43,593 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 13:40:43,631 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 13:40:43,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 13:40:43,633 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 6 
+2014-01-09 13:40:43,634 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:40:43,635 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:40:52,293 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:40:52,293 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 13:40:52,297 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 13:40:52,297 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 13:42:42,537 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 13:45:52,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:45:52,391 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:50:52,571 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:50:52,572 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 13:55:52,649 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 13:55:52,649 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:00:52,730 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:00:52,730 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:05:32,867 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 14:05:52,790 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:05:52,790 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:07:20,030 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 14:10:52,881 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:10:52,881 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:15:52,959 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:15:52,959 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:20:53,110 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:20:53,110 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:22:49,400 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 14:25:53,205 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:25:53,206 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:30:53,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:30:53,294 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:35:53,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:35:53,383 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:40:43,752 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 14:40:43,753 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:40:43,878 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 14:40:43,913 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 14:40:43,915 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 14:40:43,915 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 9 
+2014-01-09 14:40:43,916 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:40:43,917 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:40:53,469 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:40:53,469 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 14:40:53,471 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 14:40:53,471 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 14:42:40,739 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 14:45:53,567 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:45:53,567 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:50:53,681 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:50:53,681 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 14:55:53,750 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 14:55:53,750 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:00:53,823 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:00:53,823 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:05:34,066 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 15:05:53,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:05:53,906 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:07:21,231 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 15:10:53,966 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:10:53,966 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:15:54,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:15:54,061 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:20:54,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:20:54,146 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:22:47,599 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 15:25:54,212 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:25:54,213 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:30:54,277 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:30:54,278 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:35:54,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:35:54,358 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:40:43,981 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 15:40:43,981 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:40:44,171 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 15:40:44,208 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 15:40:44,209 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 15:40:44,210 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 7 
+2014-01-09 15:40:44,210 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:40:44,211 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:40:54,406 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:40:54,406 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 15:40:54,407 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 15:40:54,407 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 15:42:38,937 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 15:45:54,458 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:45:54,458 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:50:54,521 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:50:54,521 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 15:55:54,606 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 15:55:54,606 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:00:54,672 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:00:54,673 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:05:38,266 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 16:05:54,757 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:05:54,757 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:07:19,429 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 16:10:54,815 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:10:54,816 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:15:54,876 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:15:54,877 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:20:54,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:20:54,940 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:22:48,799 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 16:25:55,012 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:25:55,012 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:30:55,058 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:30:55,059 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:35:55,106 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:35:55,107 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:40:44,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 16:40:44,283 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:40:44,436 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 16:40:44,477 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 16:40:44,479 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 16:40:44,479 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 3 
+2014-01-09 16:40:44,480 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:40:44,481 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:40:55,181 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:40:55,181 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 16:40:55,198 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 16:40:55,198 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 16:42:40,139 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 16:45:55,267 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:45:55,267 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:50:55,311 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:50:55,312 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 16:55:55,404 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 16:55:55,404 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:00:55,489 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:00:55,489 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:05:33,467 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 17:05:55,571 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:05:55,571 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:07:17,626 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 17:10:55,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:10:55,633 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:15:55,681 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:15:55,681 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:20:55,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:20:55,744 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:22:49,999 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 17:25:55,822 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:25:55,823 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:30:55,870 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:30:55,870 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:35:56,058 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:35:56,058 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:40:44,557 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 17:40:44,557 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:40:44,680 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 17:40:44,778 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 17:40:44,779 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 17:40:44,779 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 8 
+2014-01-09 17:40:44,780 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:40:44,781 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:40:56,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:40:56,146 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 17:40:56,147 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 17:40:56,148 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 17:42:38,338 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 17:45:56,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:45:56,239 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:50:56,311 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:50:56,312 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 17:55:56,392 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 17:55:56,393 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:00:56,479 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:00:56,479 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:05:34,667 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 18:05:56,565 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:05:56,565 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:07:21,830 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 18:10:56,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:10:56,639 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:15:56,737 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:15:56,737 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:20:56,819 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:20:56,819 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:22:48,199 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 18:25:56,902 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:25:56,903 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:30:56,982 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:30:56,982 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:35:57,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:35:57,057 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:40:44,847 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 18:40:44,847 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:40:44,970 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 18:40:45,106 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 18:40:45,107 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 18:40:45,107 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 9 
+2014-01-09 18:40:45,108 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:40:45,109 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:40:57,133 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:40:57,133 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 18:40:57,134 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 18:40:57,135 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 18:42:39,537 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 18:45:57,235 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:45:57,235 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:50:57,309 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:50:57,310 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 18:55:57,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 18:55:57,390 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:00:57,470 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:00:57,471 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:05:32,867 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 19:05:57,551 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:05:57,551 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:07:20,028 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 19:10:57,635 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:10:57,635 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:15:57,717 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:15:57,718 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:20:57,799 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:20:57,799 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:22:52,397 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 19:25:57,880 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:25:57,881 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:30:57,943 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:30:57,943 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:35:58,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:35:58,018 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:40:45,278 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 19:40:45,278 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:40:45,401 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 19:40:45,462 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 19:40:45,464 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 19:40:45,464 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 12 
+2014-01-09 19:40:45,465 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:40:45,466 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:40:58,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:40:58,087 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 19:40:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 19:40:58,089 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 19:42:43,739 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 19:45:58,181 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:45:58,181 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:50:58,253 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:50:58,253 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 19:55:58,328 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 19:55:58,329 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:00:58,410 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:00:58,410 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:05:34,067 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 1 msecs
+2014-01-09 20:05:58,467 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:05:58,467 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:07:18,229 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 20:10:58,541 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:10:58,542 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:15:58,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:15:58,622 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:20:58,703 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:20:58,703 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:22:47,597 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 20:25:58,809 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:25:58,810 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:30:58,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:30:58,896 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:35:58,995 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:35:58,996 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:40:45,530 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 20:40:45,530 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:40:45,758 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 20:40:45,789 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 20:40:45,790 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 20:40:45,790 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 6 
+2014-01-09 20:40:45,791 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:40:45,791 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:40:59,080 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:40:59,081 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 20:40:59,082 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 20:40:59,083 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 20:42:38,937 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 20:45:59,176 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:45:59,176 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:50:59,262 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:50:59,262 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 20:55:59,349 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 20:55:59,349 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:00:59,432 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:00:59,432 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:05:35,267 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 21:05:59,509 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:05:59,510 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:07:19,428 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 21:10:59,593 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:10:59,593 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:15:59,700 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:15:59,701 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:20:59,784 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:20:59,785 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:22:48,798 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 21:25:59,845 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:25:59,846 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:30:59,884 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:30:59,884 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:35:59,927 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:35:59,927 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:40:45,959 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 21:40:45,959 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:40:46,086 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 21:40:46,122 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 21:40:46,123 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 21:40:46,124 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 8 
+2014-01-09 21:40:46,125 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:40:46,125 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:40:59,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:40:59,983 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 21:40:59,984 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 21:40:59,984 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 21:42:40,134 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 21:46:00,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:46:00,056 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:51:00,132 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:51:00,132 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 21:56:00,191 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 21:56:00,191 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:01:00,255 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:01:00,255 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:05:33,467 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 22:06:00,313 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:06:00,313 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:07:17,628 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 22:11:00,356 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:11:00,357 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:16:11,567 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:16:11,568 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:21:11,609 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:21:11,609 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:22:49,997 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 22:26:11,675 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:26:11,676 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:31:11,759 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:31:11,759 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:36:11,847 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:36:11,847 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:40:46,188 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 22:40:46,188 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:40:46,442 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 22:40:46,488 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 22:40:46,490 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 22:40:46,490 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 5 
+2014-01-09 22:40:46,491 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:40:46,492 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:41:11,924 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:41:11,924 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 22:41:11,926 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 22:41:11,926 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 22:42:38,336 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 22:46:12,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:46:12,013 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:51:12,100 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:51:12,100 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 22:56:12,188 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 22:56:12,189 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:01:12,272 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:01:12,272 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:05:34,666 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.26:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 23:06:12,335 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:06:12,335 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:07:18,827 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.22:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 23:11:12,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:11:12,382 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:16:12,458 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:16:12,459 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:21:12,547 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:21:12,547 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:22:48,198 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.28:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 23:26:12,627 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:26:12,627 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:31:12,714 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:31:12,714 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:36:12,780 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:36:12,780 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:40:46,557 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.7
+2014-01-09 23:40:46,558 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:40:46,671 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2014-01-09 23:40:46,706 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0e75e25da849dcba2361284fa8fb4ac1
+2014-01-09 23:40:46,707 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.10.0.7
+2014-01-09 23:40:46,708 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 15 
+2014-01-09 23:40:46,709 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:40:46,709 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:41:12,823 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:41:12,823 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2014-01-09 23:41:12,824 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 23:41:12,824 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/tmp/hadoop-root/dfs/name/current/edits
+2014-01-09 23:42:39,536 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 10.10.0.25:50010, blocks: 0, processing time: 0 msecs
+2014-01-09 23:46:12,932 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:46:12,933 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:51:13,008 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:51:13,008 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new
+2014-01-09 23:56:13,080 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.10.0.21
+2014-01-09 23:56:13,081 WARN org.apache.hadoop.hdfs.server.namenode.FSEditLog: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /tmp/hadoop-root/dfs/name/current/edits.new

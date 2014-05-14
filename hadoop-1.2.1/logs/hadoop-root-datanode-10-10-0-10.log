@@ -1,0 +1,589 @@
+2014-01-08 16:11:44,841 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:10:42 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:11:45,368 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:11:45,411 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:11:45,412 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:11:45,412 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:11:45,752 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:11:46,012 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:11:46,969 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:11:46,990 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:11:46,990 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:11:47,237 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:11:47,259 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:11:47,270 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:11:47,356 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:11:47,431 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:11:47,488 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:11:47,488 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:11:47,489 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:11:47,489 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:11:47,489 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:11:48,113 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:11:48,126 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:11:48,128 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:11:48,297 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:11:48,313 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:11:48,314 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:11:48,319 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:12:17,873 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-191775636-10.10.0.10-50010-1389215537849 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:12:17,874 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:12:17,881 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-08 16:12:17,881 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-191775636-10.10.0.10-50010-1389215537849, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:12:17,881 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:12:17,882 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:12:17,884 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:12:17,884 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:12:17,885 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:12:17,885 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:12:17,888 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 1 msecs for RPC and NN processing
+2014-01-08 16:12:17,891 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:12:17,891 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 16:13:56,921 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 16:14:01,422 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:14:17,490 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:13:31 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:14:17,775 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:14:17,822 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:14:17,828 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:14:17,828 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:14:18,007 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:14:18,089 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:14:18,386 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:14:18,394 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:14:18,394 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:14:18,489 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:14:18,513 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:14:18,518 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:14:18,589 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:14:18,661 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:14:18,695 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:14:18,695 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:14:18,696 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:14:18,696 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:14:18,696 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:14:19,191 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:14:19,209 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:14:19,211 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:14:19,252 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:14:19,259 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:14:19,259 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:14:19,262 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:14:19,302 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1880070331-10.10.0.10-50010-1389215659277 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:14:19,302 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:14:19,308 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-08 16:14:19,308 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-1880070331-10.10.0.10-50010-1389215659277, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:14:19,308 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:14:19,309 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:14:19,311 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:14:19,311 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:14:19,311 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:14:19,312 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:14:19,318 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 5 msecs for RPC and NN processing
+2014-01-08 16:14:19,321 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:14:19,321 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 16:16:49,363 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 16:16:53,054 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:17:08,475 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:16:23 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:17:08,747 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:17:08,783 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:17:08,784 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:17:08,784 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:17:08,964 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:17:09,052 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:17:09,350 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:17:09,359 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:17:09,359 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:17:09,656 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:17:09,680 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:17:09,689 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:17:09,774 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:17:09,846 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:17:09,884 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:17:09,885 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:17:09,885 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:17:09,885 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:17:09,885 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:17:10,368 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:17:10,388 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:17:10,398 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:17:10,502 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:17:10,510 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:17:10,510 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:17:10,513 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:17:47,289 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1196867183-10.10.0.10-50010-1389215867247 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:17:47,304 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:17:47,312 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-1196867183-10.10.0.10-50010-1389215867247, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:17:47,312 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 16:17:47,313 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:17:47,314 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:17:47,319 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:17:47,319 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:17:47,319 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:17:47,319 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:17:47,325 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 1 msec to generate and 2 msecs for RPC and NN processing
+2014-01-08 16:17:47,329 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:17:47,330 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 16:22:20,415 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-08 16:22:23,424 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 10 msecs for RPC and NN processing
+2014-01-08 16:34:41,046 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:38:30,142 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:37:37 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:38:30,678 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:38:30,728 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:38:30,737 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:38:30,737 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:38:31,012 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:38:31,233 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:38:31,787 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:38:31,802 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:38:31,802 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:38:31,959 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:38:31,994 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:38:32,000 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:38:32,102 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:38:32,195 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:38:32,264 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:38:32,264 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:38:32,265 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:38:32,265 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:38:32,265 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:38:32,822 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:38:32,833 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:38:32,834 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:38:32,984 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:38:33,000 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:38:33,000 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:38:33,003 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:39:08,807 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1420356409-10.10.0.10-50010-1389217148773 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:39:08,822 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:39:08,835 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 16:39:08,835 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-1420356409-10.10.0.10-50010-1389217148773, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:39:08,841 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:39:08,842 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:39:08,847 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:39:08,847 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:39:08,847 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:39:08,848 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:39:08,856 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-08 16:39:08,861 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:39:08,862 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 16:42:54,030 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.IOException: Connection reset by peer
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:218)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:191)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:359)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:364)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 16:42:58,950 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:43:14,576 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:42:27 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:43:14,819 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:43:14,868 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:43:14,876 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:43:14,876 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:43:15,027 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:43:15,101 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:43:15,350 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:43:15,359 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:43:15,359 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:43:15,502 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:43:15,520 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:43:15,525 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:43:15,596 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:43:15,663 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:43:15,695 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:43:15,695 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:43:15,696 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:43:15,696 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:43:15,696 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:43:16,275 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:43:16,300 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:43:16,302 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:43:16,366 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:43:16,373 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:43:16,374 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:43:16,376 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:43:17,227 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-219664797-10.10.0.10-50010-1389217396387 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:43:17,227 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:43:17,233 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-219664797-10.10.0.10-50010-1389217396387, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:43:17,233 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-08 16:43:17,235 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:43:17,235 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:43:17,239 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:43:17,240 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:43:17,240 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:43:17,240 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:43:17,245 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 2 msecs for RPC and NN processing
+2014-01-08 16:43:17,248 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:43:17,248 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 16:45:50,295 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 16:45:58,338 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:47:08,126 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:46:33 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:47:08,387 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:47:08,431 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:47:08,439 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:47:08,439 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:47:08,589 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:47:08,665 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:47:08,929 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:47:08,937 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:47:08,937 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:47:09,037 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:47:09,050 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:47:09,056 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:47:09,134 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:47:09,205 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:47:09,243 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:47:09,243 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:47:09,243 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:47:09,243 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:47:09,244 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:47:09,839 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:47:09,850 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:47:09,852 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:47:09,947 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:47:09,955 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:47:09,956 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:47:09,958 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:47:10,306 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1624913533-10.10.0.10-50010-1389217629967 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:47:10,306 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:47:10,311 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 16:47:10,312 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-1624913533-10.10.0.10-50010-1389217629967, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:47:10,313 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:47:10,313 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:47:10,316 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:47:10,316 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:47:10,316 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:47:10,317 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:47:10,320 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 1 msecs for RPC and NN processing
+2014-01-08 16:47:10,322 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:47:10,323 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 1 ms
+2014-01-08 16:54:22,779 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.IOException: Connection reset by peer
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:218)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:191)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:359)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:364)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 16:54:27,783 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 16:54:43,163 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 16:53:55 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 16:54:43,399 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 16:54:43,430 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 16:54:43,431 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 16:54:43,431 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 16:54:43,624 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 16:54:43,709 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 16:54:44,067 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 16:54:44,079 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 16:54:44,079 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 16:54:44,126 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 16:54:44,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 16:54:44,159 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 16:54:44,228 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 16:54:44,300 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 16:54:44,331 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 16:54:44,331 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 16:54:44,331 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 16:54:44,331 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 16:54:44,331 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 16:54:44,821 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 16:54:44,840 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 16:54:44,849 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 16:54:44,932 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 16:54:44,940 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 16:54:44,940 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 16:54:44,942 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 16:55:17,305 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-470581467-10.10.0.10-50010-1389218117244 is assigned to data-node 10.10.0.10:50010
+2014-01-08 16:55:17,319 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 16:55:17,328 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 16:55:17,328 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-470581467-10.10.0.10-50010-1389218117244, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 16:55:17,330 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 16:55:17,331 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 16:55:17,336 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 16:55:17,336 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 16:55:17,336 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 16:55:17,336 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 16:55:17,347 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 3 msecs for RPC and NN processing
+2014-01-08 16:55:17,350 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 16:55:17,351 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 17:02:53,487 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 17:02:53,506 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 15 msecs for RPC and NN processing
+2014-01-08 17:07:11,580 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 17:07:15,450 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 17:07:30,998 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 17:06:44 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 17:07:31,220 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 17:07:31,248 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 17:07:31,249 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 17:07:31,249 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 17:07:31,415 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 17:07:31,485 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 17:07:31,748 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 17:07:31,760 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 17:07:31,760 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 17:07:31,925 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 17:07:31,949 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 17:07:31,959 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 17:07:32,048 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 17:07:32,123 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 17:07:32,157 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 17:07:32,157 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 17:07:32,157 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 17:07:32,157 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 17:07:32,157 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 17:07:32,669 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 17:07:32,686 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 17:07:32,688 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 17:07:32,760 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 17:07:32,768 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 17:07:32,769 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 17:07:32,772 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 17:07:32,798 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-656458737-10.10.0.10-50010-1389218852780 is assigned to data-node 10.10.0.10:50010
+2014-01-08 17:07:32,798 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 17:07:32,803 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 17:07:32,804 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-656458737-10.10.0.10-50010-1389218852780, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 17:07:32,804 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 17:07:32,805 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 17:07:32,807 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 17:07:32,807 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 17:07:32,807 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 17:07:32,808 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 17:07:32,814 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 1 msec to generate and 4 msecs for RPC and NN processing
+2014-01-08 17:07:32,816 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 17:07:32,816 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 17:07:41,809 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 17:07:41,812 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 3 msecs for RPC and NN processing
+2014-01-08 17:13:50,939 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to hadoop-1/10.10.0.7:8020 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:230)
+	at sun.proxy.$Proxy5.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1033)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1644)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2014-01-08 17:13:55,767 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at 10-10-0-10/10.10.0.10
+************************************************************/
+2014-01-08 17:14:11,297 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = 10-10-0-10/10.10.0.10
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.2-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'root' on Wed Jan  8 17:13:23 EST 2014
+STARTUP_MSG:   java = 1.7.0_09-icedtea
+************************************************************/
+2014-01-08 17:14:11,587 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2014-01-08 17:14:11,633 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2014-01-08 17:14:11,639 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2014-01-08 17:14:11,639 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2014-01-08 17:14:11,839 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2014-01-08 17:14:11,916 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-01-08 17:14:12,238 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Permitting datanode version '1.2.2-SNAPSHOT' and revision '' to connect to namenode version '1.2.2-SNAPSHOT' and revision '' because hadoop.skip.worker.version.check is enabled
+2014-01-08 17:14:12,247 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /tmp/hadoop-root/dfs/data is not formatted
+2014-01-08 17:14:12,247 INFO org.apache.hadoop.hdfs.server.common.Storage: Formatting ...
+2014-01-08 17:14:12,433 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2014-01-08 17:14:12,459 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2014-01-08 17:14:12,468 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2014-01-08 17:14:12,541 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-01-08 17:14:12,617 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2014-01-08 17:14:12,653 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2014-01-08 17:14:12,653 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2014-01-08 17:14:12,654 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2014-01-08 17:14:12,654 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2014-01-08 17:14:12,654 INFO org.mortbay.log: jetty-6.1.26
+2014-01-08 17:14:13,316 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2014-01-08 17:14:13,330 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2014-01-08 17:14:13,332 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2014-01-08 17:14:13,400 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2014-01-08 17:14:13,409 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2014-01-08 17:14:13,409 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2014-01-08 17:14:13,412 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(hadoop-4:50010, storageID=, infoPort=50075, ipcPort=50020)
+2014-01-08 17:14:13,701 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: New storage id DS-1069624030-10.10.0.10-50010-1389219253421 is assigned to data-node 10.10.0.10:50010
+2014-01-08 17:14:13,702 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2014-01-08 17:14:13,707 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.10.0.10:50010, storageID=DS-1069624030-10.10.0.10-50010-1389219253421, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/tmp/hadoop-root/dfs/data/current'}
+2014-01-08 17:14:13,707 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms
+2014-01-08 17:14:13,708 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2014-01-08 17:14:13,708 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2014-01-08 17:14:13,711 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2014-01-08 17:14:13,712 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2014-01-08 17:14:13,712 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2014-01-08 17:14:13,712 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2014-01-08 17:14:13,719 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 5 msecs for RPC and NN processing
+2014-01-08 17:14:13,721 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2014-01-08 17:14:13,722 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 0 ms
+2014-01-08 17:20:01,838 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2014-01-08 17:20:04,856 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 0 blocks took 0 msec to generate and 17 msecs for RPC and NN processing
