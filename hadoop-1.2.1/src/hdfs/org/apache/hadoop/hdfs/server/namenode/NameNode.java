@@ -1190,7 +1190,7 @@ public class NameNode implements ClientProtocol, DatanodeProtocol,
   public Block newBlockForLocalFile(DatanodeRegistration nodeReg, Block block) 
                                     throws IOException {
     DatanodeInfo chosenNode = new DatanodeInfo(new DatanodeID(nodeReg.getName()));
-    LocatedBlock lb = addTouchedBlock("/user/root/input/foo", "Zhe", null, chosenNode);
+    LocatedBlock lb = addTouchedBlock("/user/root/input/foo", "ROOT", null, chosenNode);
     Block lbBlock;
     lbBlock = lb.getBlock();
     lbBlock.setNumBytes(block.getNumBytes());
